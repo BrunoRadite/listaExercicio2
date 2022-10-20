@@ -138,5 +138,5 @@ class ListaLigada:
             atual = atual.proxima
         self.__ultima = atual
         self.__ultima.proxima = None
-        string_final = string_final + f'{atual.elemento}]   {self.__ultima}'
+        string_final = string_final + f'{atual.elemento}]'
         return string_final
